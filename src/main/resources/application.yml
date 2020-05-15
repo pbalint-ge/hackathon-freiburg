@@ -1,0 +1,18 @@
+#debug: true
+
+# proxy:
+#     url:  iss-emea-pitc-amsterdam.corporate.ge.com
+#     port: 80
+
+server:
+    port: 8080
+        
+fhir:
+    server-url: https://prod.apigee.gehealthcloud.com:9002/fhir-api/fhir
+    api-key: dsfG1fWGnft11wem1oeI47Ug9EYUnnuC
+
+logging:
+    level:
+        org.springframework.security: INFO
+        org.apache.http: WARN
+#        ROOT: INFO
